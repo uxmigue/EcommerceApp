@@ -1,11 +1,15 @@
-body{
-    background-color: pink;
+.container{
+    max-width: 100px;
+    margin: 0 auto;
 }
 
-h1{
-    color: rgb(5, 197, 197);
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-p{
-    color: red;
+ul{
+    display: flex;
+    align-items: center;
 }
