@@ -3,32 +3,65 @@
     <head>
         <meta charset="UTF-8">
         <title>Git Prueba</title>
-        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap/main.css"> 
+
     </head>
     <body>
-        <div class="container">
-            <header>
-                <h1 class="logo"> Git sitio web</h1>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Location</a></li>
-                </ul>
-            </header>
-            <section>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, beatae! Ut laboriosam sed rerum debitis temporibus. Libero corrupti maiores repudiandae. Iste asperiores dolore sequi illum qui. Facere officia odit harum?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, beatae! Ut laboriosam sed rerum debitis temporibus. Libero corrupti maiores repudiandae. Iste asperiores dolore sequi illum qui. Facere officia odit harum?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, beatae! Ut laboriosam sed rerum debitis temporibus. Libero corrupti maiores repudiandae. Iste asperiores dolore sequi illum qui. Facere officia odit harum?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, beatae! Ut laboriosam sed rerum debitis temporibus. Libero corrupti maiores repudiandae. Iste asperiores dolore sequi illum qui. Facere officia odit harum?</p>
-            </section>
-            <section>
-                <h2>Subtítulo</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque quos recusandae quam eum dignissimos expedita obcaecati! Voluptas totam sunt repellendus ea? Nihil molestiae itaque consequatur est delectus, aut ducimus beatae?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem incidunt, optio quisquam hic magni, itaque sunt et, quam totam reprehenderit repudiandae nobis deserunt labore commodi distinctio quis id pariatur minima.</p>
-            </section>
-        </div>
+        <header>
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-auto">
+                        <h1>Hola Mundo</h1>
+                    </div>
+                    <div class="col-auto">
+                        <div class="avatar-container" data-target="#profileOptions" data-toggle="modal">
+                            <img src="img/adidas-logo.png" alt="">
+                            <i class="fa-solid fa-gear"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="profileOptions" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Opciones</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <ul class="profile-options-list">
+                        <li>
+                            <a href="#"><i class="fas fa-user"></i>Mi perfil</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-map-marker-alt"></i>Mis direcciones</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-credit-card"></i>Mis tarjetas</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-danger"><i class="fas fa-times-circle"></i>Cerrar sesión</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </header>
+
+        <script src="https://kit.fontawesome.com/002c1c193c.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        
     </body>
     <footer></footer>
 </html>
